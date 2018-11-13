@@ -4,7 +4,7 @@ const ContentBeginning = () => (
 	<div>
 	    <div className="row">
 			<div className="col-md-12">
-				<nav className="navbar navbar-light bg-light">
+				<nav className="navbar navbar-background">
 	  				<img className="navbar-brand mx-auto d-block" src="../images/igniter-logo-white.png" width="150" height="50" alt="" />
 				</nav>
 			</div>
@@ -14,18 +14,18 @@ const ContentBeginning = () => (
 			<div className="col-md-12">
 				<div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
 				  <div className="carousel-inner">
-				    <div className="carousel-item active">
-				      <img className="d-block w-100" src="../images/hero-img.jpg" alt="First slide" />
+				    <div className="carousel-item active img-container">
+				    	<img className="d-block w-100 slider-img" src="../images/hero-img.jpg" alt="First slide" />
 				    </div>
 				    <div className="carousel-item">
-				      <img className="d-block w-100" src="../images/hero-img.jpg" alt="Second slide" />
+				    	<img className="d-block w-100 slider-img" src="../images/iStock-613672992.jpg" alt="Second slide" />
 				    </div>
 				    <div className="carousel-item">
-				      <img className="d-block w-100" src="../images/hero-img.jpg" alt="Third slide" />
+				    	<img className="d-block w-100 slider-img" src="../images/iStock-503300108.jpg" alt="Third slide" />
 				    </div>
 				  </div>
 				  <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-				    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+				  	<span className="carousel-control-prev-icon" aria-hidden="true"></span>
 				    <span className="sr-only">Previous</span>
 				  </a>
 				  <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
@@ -36,38 +36,48 @@ const ContentBeginning = () => (
 			</div>
 	    </div>
 	
-		<div className="container">
-		 <div className="row">
-			<div className="col-md-6">
-				<div className="text-center">
-					<img className="" src="../images/page-icon.png" alt="" />
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		<div className="container beginning-col-container">
+			<div className="row beginning-col-content">
+				<div className="col-md-1">
+					<div className="col-img">
+						<img className="" src="../images/page-icon.png" alt="" />
+					</div>
+				</div>	
+				<div className="col-md-5">
+					<span className="beginning-col-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> 
 				</div>
-			</div>	
 
-			<div className="col-md-6">
-				<div className="text-center">
-					<img className="" src="../images/page-icon.png" alt="" />
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-				</div>    
-			</div>
-		</div>
-
-		<div className="row">
-			<div className="col-md-6">
-				<div className="text-center">
-					<img className="" src="../images/page-icon.png" alt="" />
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				<div className="col-md-1">
+					<div className="col-img">
+						<img className="" src="../images/page-icon.png" alt="" />
+					</div>    
 				</div>
-			</div>	
-
-			<div className="col-md-6">
-				<div className="text-center">
-					<img className="" src="../images/page-icon.png" alt="" />
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-				</div>    
+				<div className="col-md-5">
+					<span className="beginning-col-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> 
+				</div>	
 			</div>
-		</div>	 
+
+			<div className="row beginning-col-content">
+				<div className="col-md-1">
+					<div className="col-img">
+						<img className="" src="../images/page-icon.png" alt="" />
+					</div>
+				</div>
+
+				<div className="col-md-5">
+					<span className="beginning-col-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> 
+				</div>
+
+				<div className="col-md-1">
+					<div className="col-img">
+						<img className="" src="../images/page-icon.png" alt="" />
+					</div>    
+				</div>
+
+				<div className="col-md-5">
+					<span className="beginning-col-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> 
+				</div>	
+			</div>	 
 		</div>
 
 		<div className="row">

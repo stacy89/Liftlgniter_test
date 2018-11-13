@@ -1,1 +1,25 @@
+/* ContentBeginning */
+
+.navbar-background {
+	background-color: #1676DD;
+	height: 60px;
+}
+
+.slider-img {
+	height: 509px;
+}
+
+.beginning-col-container {
+	margin-top: 75px;
+}
+
+.beginning-col-content {
+	padding: 20px;
+}
+
+.beginning-col-text {
+	font-family: 'Roboto Regualr';
+	font-size: 14px;
+	line-height: 20px;
+}
 
