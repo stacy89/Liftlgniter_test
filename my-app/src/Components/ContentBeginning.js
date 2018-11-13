@@ -1,10 +1,10 @@
 import React from "react";
 
-const MainContentHeader = () => (
+const ContentBeginning = () => (
 	<div>
 	    <div className="row">
 			<div className="col-md-12">
-				<nav className="navbar sticky-top navbar-light bg-light">
+				<nav className="navbar navbar-light bg-light">
 	  				<img className="navbar-brand mx-auto d-block" src="../images/igniter-logo-white.png" width="150" height="50" alt="" />
 				</nav>
 			</div>
@@ -35,19 +35,20 @@ const MainContentHeader = () => (
 				</div>
 			</div>
 	    </div>
-
+	
+		<div className="container">
 		 <div className="row">
 			<div className="col-md-6">
 				<div className="text-center">
 					<img className="" src="../images/page-icon.png" alt="" />
-					bjklbljhjbjhjhbjhbjbhjbhjbhj
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 				</div>
 			</div>	
 
 			<div className="col-md-6">
 				<div className="text-center">
 					<img className="" src="../images/page-icon.png" alt="" />
-					bjklbljhjbjhjhbjhbjbhjbhjbhj
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 				</div>    
 			</div>
 		</div>
@@ -56,17 +57,18 @@ const MainContentHeader = () => (
 			<div className="col-md-6">
 				<div className="text-center">
 					<img className="" src="../images/page-icon.png" alt="" />
-					bjklbljhjbjhjhbjhbjbhjbhjbhj
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 				</div>
 			</div>	
 
 			<div className="col-md-6">
 				<div className="text-center">
 					<img className="" src="../images/page-icon.png" alt="" />
-					bjklbljhjbjhjhbjhbjbhjbhjbhj
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 				</div>    
 			</div>
 		</div>	 
+		</div>
 
 		<div className="row">
 			<div className="col-md-12">
@@ -77,4 +79,4 @@ const MainContentHeader = () => (
     </div>
 );
 
-export default MainContentHeader;
+export default ContentBeginning;
