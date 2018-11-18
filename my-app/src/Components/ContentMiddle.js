@@ -11,34 +11,32 @@ const ContentMiddle = () => (
 
 		<div className="row">
 			<div className="col-md-6">
-				<span className="col-1-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Purus viverra accumsan in nisl nisi scelerisque eu. Duis ut diam quam nulla porttitor. Suspendisse sed nisi lacus sed viverra.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Purus viverra accumsan in nisl nisi scelerisque eu. Duis ut diam quam nulla porttitor. Suspendisse sed nisi lacus sed viverra.</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Purus viverra accumsan in nisl nisi scelerisque eu. Duis ut diam quam nulla porttitor. Suspendisse sed nisi lacus sed viverra.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Purus viverra accumsan in nisl nisi scelerisque eu. Duis ut diam quam nulla porttitor. Suspendisse sed nisi lacus sed viverra.</p>
 			</div>
 
-			<div className="col-md-6">
-				<div className="text-center">
-				<button type="button" className="paragraph-btn">Button</button>
-				</div>
+			<div className="col-md-6 center-btn-container">
+				<button type="button" className="btn text-center paragraph-btn">Button</button>
 			</div>
 		</div>
 
 		<div className="row middle-col-content">
 			<div className="col-md-4">
 				<div className="text-center">
-					<div className="percentage">240%</div>
+					<div className="percentage animated pulse slow infinite">240%</div>
 					<p className="percentage-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 			</div>
 
 			<div className="col-md-4">
 				<div className="text-center">
-					<div className="percentage">105%</div>
+					<div className="percentage animated pulse slow infinite">105%</div>
 					<p className="percentage-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 			</div>
 
 			<div className="col-md-4">
 				<div className="text-center">
-					<div className="percentage">159%</div>
+					<div className="percentage animated pulse slow infinite">159%</div>
 					<p className="percentage-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 			</div>
